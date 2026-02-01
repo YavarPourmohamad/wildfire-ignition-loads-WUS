@@ -20,11 +20,11 @@ The models utilize a diverse suite of drivers:
 - **Anthropogenic:** Agricultural interfaces, population density, and social drivers.
 
 ## Technical Stack & Methodology:
-* **This project utilizes a high-performance machine learning pipeline designed for imbalanced spatio-temporal datasets.
-* **Modeling: Developed using XGBoost and Scikit-learn for robust classification of ignition events.
-* **Optimization: Hyperparameter tuning conducted via Bayesian Optimization to maximize F1-scores across diverse ignition causes.
-* **Spatial Data: Processed using GeoPandas and ArcPy to integrate 267 physical and anthropogenic attributes.
-* **Data Handling: Large-scale feature engineering with Pandas and NumPy, managing over 20 years of climate and social variable data.
+* This project utilizes a high-performance machine learning pipeline designed for imbalanced spatio-temporal datasets.
+* Modeling: Developed using XGBoost and Scikit-learn for robust classification of ignition events.
+* Optimization: Hyperparameter tuning conducted via Bayesian Optimization to maximize F1-scores across diverse ignition causes.
+* Spatial Data: Processed using GeoPandas and ArcPy to integrate 267 physical and anthropogenic attributes.
+* Data Handling: Large-scale feature engineering with Pandas and NumPy, managing over 20 years of climate and social variable data.
 
 ## Citation
 > Pourmohamad, Y. (2026). Potential versus Actual Wildfire Ignition Loads in the Western United States. Zenodo. https://doi.org/10.5281/zenodo.17535757
